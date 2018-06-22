@@ -7,7 +7,7 @@
 
 ```elixir
 @deps [
-  object_id: "~> {:object_id, "~> 1.0.1"}"
+  object_id: "~> {:object_id, "~> 1.0.2"}"
 ]
 ```
 
