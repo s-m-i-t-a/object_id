@@ -36,7 +36,7 @@ defmodule ObjectId.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      # {:ex_doc, "~> 0.18.1", only: :dev},
+      {:ex_doc, "~> 0.18.1", only: :dev},
       {:credo, "~> 0.9", only: [:dev, :test]},
       {:excoveralls, "~> 0.9", only: :test},
       {:mongodb, "~> 0.4.6"},
