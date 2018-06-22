@@ -11,6 +11,7 @@ defmodule ObjectId.MixProject do
       dialyzer: dialyzer_base() |> dialyzer_ptl(System.get_env("SEMAPHORE_CACHE_DIR")),
       start_permanent: Mix.env() == :prod,
       deps: deps(),
+      package: package(),
       test_coverage: [tool: ExCoveralls],
       preferred_cli_env: [
         coveralls: :test,
