@@ -5,7 +5,7 @@ defmodule ObjectId.MixProject do
     [
       app: :object_id,
       description: "Mongo BSON ObjectID helper functions",
-      version: "0.1.0",
+      version: "1.0.0",
       elixir: "~> 1.6",
       elixirc_paths: elixirc_paths(Mix.env()),
       dialyzer: dialyzer_base() |> dialyzer_ptl(System.get_env("SEMAPHORE_CACHE_DIR")),
